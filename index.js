@@ -15,8 +15,8 @@ app.use(bodyParser.json())
 //ROUTES
 app.get('/', (req,res) => res.send("Hi I am a chatbot"))
 
-let token = "EAAGLiq7JIqoBADKPuEK6fVFozEkbWtm1cmRnP2nRtzoRDTWoUKEZBZCJRks7BsCcAobvrBam6EVi3KPqDMRqeHVPZC8TAVzqb0QOJgBF1Ifx6JnIPo0M8Lj9wlY5EXYBPEVZBhH3lNOmUZBP6yypbR9ZBeCTSaLLZCAGZCIVM8m2rfr3qSwdmN8zheZBW8ABGYEEZD"
-
+let token = 
+    
 // Facebook
 app.get('/webhook', (req, res) => {
     if (req.query['hub.verify_token'] === "pass"){
